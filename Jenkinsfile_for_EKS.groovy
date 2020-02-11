@@ -7,7 +7,7 @@ node{
         ])])
     stage("Pull Repo"){
         ws ("tmp/"){
-            git 'https://github.com/farrukh90/terraform-iaac-eks-burak.git'
+            git 'git@github.com:seedoffd/Jenkins_pipelines-1.git'
         }
     }
     stage("Check Terraform"){
